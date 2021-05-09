@@ -1,0 +1,52 @@
+body {
+    background: #f77272;
+    color: #ffff;
+}
+
+.hmd {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 130px;
+    font-weight: 800;
+    font-family: fantasy;
+    text-align: center;
+    background-image: url(candycanes.jpg);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: MoveBars 80s linear infinite;
+}
+
+.hero {
+    display: flex;
+    height: 100vh;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4978e;
+    text-align: center;
+    background-image: url(2f962464c26935eb0174d6266dabf331.jpg);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: MoveBars 80s linear infinite;
+}
+
+@keyframes MoveBars {
+    0% {
+        background-position: 0% 30%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+img {
+    height: 80%;
+    width: 28%;
+    align-items: center;
+    margin-left: 37%;
+    margin-top: 20px;
+}
